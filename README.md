@@ -2,7 +2,7 @@
 
 Works for windows
 
-Execute a file when a program is force closed
+Execute a command when a program is force closed
 
 waitforme :
 - pid
