@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <Windows.h>
+#include<typeinfo>
 #pragma warning(disable:4996)
 
 BOOL isProcessRunning(DWORD pid)
@@ -14,7 +15,9 @@ int main(int argc, char * argv[])
 {
 	if (argc < 3)
 	{
-		printf("waitforme.exe pid file_to_execute\n");
+		printf("Usage : \n");
+		printf("- pid of a process");
+		printf("- file/command to execute");
 		return 0;
 	}
 
