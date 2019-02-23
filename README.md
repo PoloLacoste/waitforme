@@ -6,7 +6,7 @@ Execute a command when a program is force closed
 
 waitforme :
 - pid
-- file to execute
+- command to execute
 
 TODO :
 - Cleaner arguments 
